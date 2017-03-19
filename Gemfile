@@ -42,7 +42,8 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  
+  # use bootstrap for css features of the site
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
   group :development, :test do
     gem 'sqlite3'
   end
